@@ -1,3 +1,9 @@
+## Wrkflow product source of truth
+
+For the Wrkflow product work in this repository, the implementation handoff begins at [docs/wrkflow/TL-HANDOFF.md](docs/wrkflow/TL-HANDOFF.md). The canonical product and architecture contracts are [docs/wrkflow/SOURCE-OF-TRUTH.md](docs/wrkflow/SOURCE-OF-TRUTH.md), [docs/wrkflow/ARCHITECTURE.md](docs/wrkflow/ARCHITECTURE.md), [docs/wrkflow/DOMAIN-CONTRACTS.md](docs/wrkflow/DOMAIN-CONTRACTS.md), [docs/wrkflow/IMPLEMENTATION-ROADMAP.md](docs/wrkflow/IMPLEMENTATION-ROADMAP.md), and [docs/wrkflow/ACCEPTANCE.md](docs/wrkflow/ACCEPTANCE.md).
+
+The repository is the sole source of truth for implementation. Do not use chat history as an unstated requirement. Update the relevant Wrkflow spec before changing product semantics.
+
 ## 核心原则
 
 - 新增或修改行为前，先更新对应 spec；目录不存在时按需创建。先明确产品规则、状态所有者、接口和验收场景，再实现代码。
