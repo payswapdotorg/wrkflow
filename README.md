@@ -1,3 +1,18 @@
+## Wrkflow product
+
+本仓库现在作为 **Wrkflow** 的实现基础，在现有 ZCode Agent 工作台之上构建“软件工作流编译器”：从参考应用中观察、探索和重建工作流语义，再生成可独立运行的、面向 Agent 的工作流应用。原始 SaaS/应用是分析和验证的参考，不是声明为 standalone 的工作流应用的运行依赖。
+
+产品架构与 TL handoff：
+
+- [docs/wrkflow/TL-HANDOFF.md](docs/wrkflow/TL-HANDOFF.md)
+- [docs/wrkflow/SOURCE-OF-TRUTH.md](docs/wrkflow/SOURCE-OF-TRUTH.md)
+- [docs/wrkflow/ARCHITECTURE.md](docs/wrkflow/ARCHITECTURE.md)
+- [docs/wrkflow/DOMAIN-CONTRACTS.md](docs/wrkflow/DOMAIN-CONTRACTS.md)
+- [docs/wrkflow/IMPLEMENTATION-ROADMAP.md](docs/wrkflow/IMPLEMENTATION-ROADMAP.md)
+- [docs/wrkflow/ACCEPTANCE.md](docs/wrkflow/ACCEPTANCE.md)
+
+这些文档是 Wrkflow 产品实现的 source of truth；现有 ZCode runtime、workflow、browser、plugin、artifact 与 transport 基础设施应在契约允许时扩展复用，而不是另起一套平行架构。
+
 # ZCode
 
 <div align="center">
