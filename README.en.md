@@ -1,3 +1,20 @@
+## Wrkflow product
+
+This repository is the implementation base for **Wrkflow**, an evolution of ZCode focused on compiling software workflows into standalone, agent-native applications.
+
+A reference SaaS/application is used for observation, archaeology, exploration and differential verification. A compiled workflow app does not require that original application to run within its declared standalone scope.
+
+The product architecture and TL implementation handoff live in:
+
+- [docs/wrkflow/TL-HANDOFF.md](docs/wrkflow/TL-HANDOFF.md)
+- [docs/wrkflow/SOURCE-OF-TRUTH.md](docs/wrkflow/SOURCE-OF-TRUTH.md)
+- [docs/wrkflow/ARCHITECTURE.md](docs/wrkflow/ARCHITECTURE.md)
+- [docs/wrkflow/DOMAIN-CONTRACTS.md](docs/wrkflow/DOMAIN-CONTRACTS.md)
+- [docs/wrkflow/IMPLEMENTATION-ROADMAP.md](docs/wrkflow/IMPLEMENTATION-ROADMAP.md)
+- [docs/wrkflow/ACCEPTANCE.md](docs/wrkflow/ACCEPTANCE.md)
+
+Treat those documents as the product source of truth; the existing ZCode runtime is the implementation substrate to extend, not a separate application to replace.
+
 # ZCode
 
 <div align="center">
